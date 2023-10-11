@@ -1,0 +1,138 @@
+ItemName,ItemPrice,ItemType,HealthAmount
+Sword,10.0,Weapon,N/A
+Health Potion,5.0,Potion,N/A
+Hat,1.0,Clothing,N/A
+Biscuits,3.0,Food,87
+Bow,15.0,Weapon,N/A
+Arrow,1.0,Ammo,N/A
+Golden Idol,1000.0,Buff,N/A
+Shield,20.0,Weapon,N/A
+Armor,50.0,Clothing,N/A
+Mana Potion,6.0,Potion,N/A
+Boots,8.0,Clothing,N/A
+Axe,18.0,Weapon,N/A
+Bread,4.0,Food,52
+Crossbow,22.0,Weapon,N/A
+Crossbow Bolt,2.0,Ammo,N/A
+Gloves,5.0,Clothing,N/A
+Ring of Health,30.0,Buff,N/A
+Dagger,9.0,Weapon,N/A
+Chicken Leg,5.0,Food,36
+Revive Potion,20.0,Potion,N/A
+Helmet,10.0,Clothing,N/A
+Quiver,12.0,Ammo,N/A
+Spear,14.0,Weapon,N/A
+Cheese,2.0,Food,74
+Stamina Potion,7.0,Potion,N/A
+Cape,6.0,Clothing,N/A
+Bowstring,1.0,Ammo,N/A
+Amulet of Strength,25.0,Buff,N/A
+Mace,16.0,Weapon,N/A
+Elixir,8.0,Potion,N/A
+Tunic,7.0,Clothing,N/A
+Apple,1.0,Food,21
+Blowdart,3.0,Weapon,N/A
+Dart,0.5,Ammo,N/A
+Belt,4.0,Clothing,N/A
+Scroll of Wisdom,35.0,Buff,N/A
+Magic Staff,40.0,Weapon,N/A
+Fish,2.0,Food,67
+Invisibility Potion,15.0,Potion,N/A
+Gauntlets,10.0,Clothing,N/A
+Slingshot,5.0,Weapon,N/A
+Stone,0.2,Ammo,N/A
+Mushroom,1.0,Food,48
+Wand,25.0,Weapon,N/A
+Healing Herb,2.0,Potion,N/A
+Bracers,9.0,Clothing,N/A
+Necklace of Agility,20.0,Buff,N/A
+Longsword,30.0,Weapon,N/A
+Meat,4.0,Food,39
+Fireball Scroll,12.0,Buff,N/A
+Warhammer,35.0,Weapon,N/A
+Honey,2.0,Food,90
+Antidote,6.0,Potion,N/A
+Padded Armor,15.0,Clothing,N/A
+Shuriken,2.0,Ammo,N/A
+Grapes,1.0,Food,29
+Scimitar,20.0,Weapon,N/A
+Ring of Mana,28.0,Buff,N/A
+Cursed Idol,50.0,Buff,N/A
+Sling,5.0,Weapon,N/A
+Rock,0.1,Ammo,N/A
+Eggs,3.0,Food,33
+Magic Ring,40.0,Buff,N/A
+Throwing Knife,3.0,Weapon,N/A
+Energy Potion,10.0,Potion,N/A
+Berries,1.0,Food,55
+Rapier,25.0,Weapon,N/A
+Vest,8.0,Clothing,N/A
+Sling Stone,0.3,Ammo,N/A
+Mead,3.0,Food,60
+Nunchaku,10.0,Weapon,N/A
+Tea,2.0,Potion,N/A
+Cloak,9.0,Clothing,N/A
+Potion of Luck,13.0,Potion,N/A
+Chainmail,20.0,Clothing,N/A
+Whetstone,5.0,Buff,N/A
+Fruit,2.0,Food,44
+Claymore,50.0,Weapon,N/A
+Arrowhead,0.5,Ammo,N/A
+Leather Boots,6.0,Clothing,N/A
+Energy Drink,4.0,Potion,N/A
+Wooden Staff,15.0,Weapon,N/A
+Scroll of Attack,10.0,Buff,N/A
+Tomahawk,12.0,Weapon,N/A
+Carrot,1.0,Food,25
+Lance,18.0,Weapon,N/A
+Torch,2.0,Ammo,N/A
+Cloth Robe,5.0,Clothing,N/A
+Antidote Herb,2.0,Potion,N/A
+Broadsword,35.0,Weapon,N/A
+Iron Sword,20,Weapon,N/A
+Leather Armor,15,Clothing,N/A
+Magic Potion,8,Potion,N/A
+Crossbow,30,Weapon,N/A
+Bolt,2,Ammo,N/A
+Lucky Charm,50,Buff,N/A
+Steel Sword,40,Weapon,N/A
+Healing Elixir,10,Potion,N/A
+Apple,1,Food,34
+Bow,20,Weapon,N/A
+Mystic Ring,100,Buff,N/A
+Robe,12,Clothing,N/A
+Mana Potion,6,Potion,N/A
+Fish,3,Food,70
+Javelin,3,Ammo,N/A
+Golden Necklace,200,Buff,N/A
+Battle Axe,50,Weapon,N/A
+Helmet,18,Clothing,N/A
+Stamina Potion,7,Potion,N/A
+Cheese,4,Food,82
+Mace,30,Weapon,N/A
+Stone,1,Ammo,N/A
+Silver Bracelet,150,Buff,N/A
+War Hammer,55,Weapon,N/A
+Plate Armor,40,Clothing,N/A
+Antidote,9,Potion,N/A
+Meat,5,Food,61
+Flail,35,Weapon,N/A
+Boomerang,20,Weapon,N/A
+Feather,0.5,Ammo,N/A
+Emerald Amulet,250,Buff,N/A
+Halberd,60,Weapon,N/A
+Rejuvenation Potion,12,Potion,N/A
+Chicken,3,Food,46
+Whip,25,Weapon,N/A
+Throwing Knife,10,Weapon,N/A
+Dart,1,Ammo,N/A
+Ruby Ring,300,Buff,N/A
+Katana,80,Weapon,N/A
+Sandals,10,Clothing,N/A
+Elixir of Speed,15,Potion,N/A
+Lobster,10,Food,78
+Sai,20,Weapon,N/A
+Shuriken,4,Ammo,N/A
+Diamond Tiara,500,Buff,N/A
+Nunchaku,25,Weapon,N/A
+Tabard,12,Clothing,N
