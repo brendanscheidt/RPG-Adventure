@@ -205,4 +205,13 @@ public class GameEngine {
       itemCount++;
     }
   }
+
+  public List<ItemInterface> getPlayerInventory() {
+    return player.exposeInventory();
+  }
+
+  public Double getPlayerMoney() {
+    Player playerP = (Player) player;
+    return playerP.wealth();
+  }
 }

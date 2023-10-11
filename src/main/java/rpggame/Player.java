@@ -38,6 +38,10 @@ public class Player implements EntityInterface{
     store.exit(this);
   }
 
+  public Double wealth() {
+    return money;
+  }
+
   public boolean addMoney(Double amount) {
     //Money is an item with a price equal to the amount of money. it is stored in my currencyPouch currently.
     //Also check if amount of money in currencyPouch is infinity.
@@ -89,6 +93,10 @@ public class Player implements EntityInterface{
 
   public void consume(FoodItem itemToConsume) {
     //equips food or drink and removes item from inventory and consumableBag. add health or hunger later?
+    if(!inventory.contains(itemToConsume)) {
+      throw new IllegalArgumentException();
+    }
+
     if(equipedItem != null && equipedItem.getName().equals(itemToConsume.getName())) {
       equipedItem = null;
     }
@@ -122,6 +130,10 @@ public class Player implements EntityInterface{
 
   public void wear(ItemInterface itemToWear) {
     //Should I equip() clothing? only one item can be equiped and i want to have multiple clothes.
+    if(!(itemToWear instanceof ClothingItem) || !inventory.contains(itemToWear)) {
+      throw new IllegalArgumentException();
+    }
+
     if(clothing.contains(itemToWear)) {
       ui.displayMessage("Player is already wearing that!");
     }
@@ -153,6 +165,10 @@ public class Player implements EntityInterface{
 
   public void aquire(ItemInterface itemAquired) {
     //TODO: add functionality to store aquired item in correct storage place along with inventory
+    if(itemAquired == null) {
+      throw new NullPointerException();
+    }
+
     if(itemAquired instanceof FoodItem) {
       consumableBag.add((FoodItem) itemAquired);
     }
@@ -161,6 +177,10 @@ public class Player implements EntityInterface{
 
   public void relinquish(ItemInterface itemToRelinquish) {
     //avoid keeping item equipped after selling  
+    if(itemToRelinquish == null) {
+      throw new NullPointerException();
+    }
+    
     if(equipedItem != null && itemToRelinquish.getName().equalsIgnoreCase(equipedItem.getName())) {
       equipedItem = null;
     }   
@@ -207,4 +227,13 @@ public class Player implements EntityInterface{
   public int getHealth() {
     return health;
   }
+
+  public void setUI(GameUIInterface ui) {
+    this.ui = ui;
+  }
+
+  public ItemInterface getEquipedItem() {
+    return this.equipedItem;
+  }
+
 }
