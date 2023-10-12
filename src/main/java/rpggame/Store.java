@@ -135,4 +135,12 @@ public class Store implements EntityInterface{
   public List<ItemInterface> exposeInventory() {
     return this.inventory;
   }
+
+  public Double wealth() {
+    return this.money;
+  }
+
+  public void setUI(GameUIInterface ui) {
+    this.ui = ui;
+  }
 }
