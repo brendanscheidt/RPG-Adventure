@@ -186,7 +186,7 @@ public class GameEngine {
         return;
       }
       player.equip(chosenItem);
-      ui.displayMessage("Player equiped " + chosenItem.getName());
+      ui.displayMessage("Player equipped " + chosenItem.getName());
     }
   }
 
@@ -214,4 +214,13 @@ public class GameEngine {
     Player playerP = (Player) player;
     return playerP.wealth();
   }
+
+  public void setUI(GameUIInterface ui) {
+    this.ui = ui;
+  }
+
+  public void setPlayer(EntityInterface player) {
+    this.player = player;
+  }
+
 }
